@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
+
+
+/* --------------------------------------------------------------------------------------------*/
+/* Global Style*/
+
+
+/* Fonts --------------------------------------------------------------------------------------*/
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Spacing -------------------------------------------------------------------------------------*/
+.full-height{
+    height: 100vh;
+}
+
+
+/* Components ----------------------------------------------------------------------------------*/
+
+
+button{
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #18382B;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* nav ------------------------------------------------------------------------------------------*/
+
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    color:rgba(0, 0, 0, 0.6) ;
+}
+
+
+.nav-link:hover{
+    color: #18382B;
+}
+
+
+.nav-link.active{
+    border-bottom: 2px solid #18382B;
+    color: #18382B;
+}
+
+
+
+
+/* Carousel --------------------------------------------------------------------------------------*/
+.carousel-item{
+    background-color: #ceead5;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+.carousel-control-next{
+    left: 96px;
+}
+
+
+/* Card ------------------------------------------------------------------------------------------*/
+
+
+.card{
+    border-radius: 150px 150px 12px 12px;
+    background-color: #f3f3f3;
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+
+
+.card-img-top{
+    width: auto;
+    height: 320px;
+    margin: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.card-img-top.small{
+    height: 200px;
+}
+
+
+.card-text{
+    color: #18382B;
+}
+
+#add{
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Home Page -------------------------------------------------------------------------------------*/
+
+
+.hero-image{
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+
+.plant-image{
+    height: 90vh;
+    position: relative;
+    bottom: -50px;
+}
+
+
+.accordion-item{
+    background-color: #18382B;
+    color: white;
+    border-radius: 5%;
+}
+
+
+.accordion-button{
+    color: green;
+}
+
+.collection-image{
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+/* accordion */
+
+
+
+.accordion-button {
+    background-color: #7ca029;
+    color: white;
+}
+
+.accordion-button:not(.collapsed){ 
+    background-color: #080e0b;
+    color: white;
+}
+
+.accordion-item{
+    background-color: rgba(0, 0, 0, 0.945);
+    border: var(--bs-accordion-border-width) solid white;
+}
+
+/* Wishlist table */
+
+.table{
+    margin-top: 300px;
+    margin-left: 100px;
+}
